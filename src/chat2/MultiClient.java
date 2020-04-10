@@ -14,7 +14,7 @@ public class MultiClient
 		Scanner scanner = new Scanner(System.in);
 		String s_name = scanner.nextLine();
 
-		PrintWriter out = null;
+		PrintWriter out = null; 
 		BufferedReader in = null;
 
 		try
