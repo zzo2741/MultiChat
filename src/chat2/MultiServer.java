@@ -11,7 +11,7 @@ public class MultiServer
 
 	public static void main(String[] args)
 	{
-		ServerSocket serverSocket = null;
+		ServerSocket serverSocket = null; 
 		Socket socket = null;
 		PrintWriter out = null;
 		BufferedReader in = null;
