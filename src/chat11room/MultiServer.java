@@ -16,8 +16,6 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-import javax.jws.Oneway;
-
 public class MultiServer
 {
 	static ServerSocket serverSocket = null;
