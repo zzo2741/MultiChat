@@ -1,7 +1,10 @@
-package chat9connect;
+package test;
 
 import java.net.Socket;
 import java.util.Scanner;
+
+import chat11room.Sender;
+import chat11room.Receiver;
 
 public class MultiClient
 {

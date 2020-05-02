@@ -38,7 +38,7 @@ public class DBQueryCollection
 		try
 		{
 
-			String insertQuery = "INSERT INTO chating_tb VALUES (seq_chating_num.NEXTVAL, ?, ?, ?)";
+			String insertQuery = "INSERT INTO chatting_tb VALUES (seq_chating_num.NEXTVAL, ?, ?, ?)";
 			SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			Date time = new Date();
 			String time1 = format.format(time);

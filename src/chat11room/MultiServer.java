@@ -615,7 +615,7 @@ public class MultiServer
 			String name = "";
 			String s = "";
 			Boolean flag = true;
-
+			db.saveClient(name);
 			try
 			{
 				name = URLDecoder.decode(in.readLine(), "UTF-8");
